@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "full_dataset_recordings": 25,
+  "selection": "Sort 25 by duration ascending, word count ascending, recording ID ascending; choose one-based ranks 1,7,13,19,25. Selection uses no prediction boundaries.",
+  "predictions_path": "evaluation/results/phase4_whisperx/full_result.json",
+  "frozen_inputs": {
+    "evaluation/results/phase4_whisperx/full_result.json": "739e4dc1424ae7900af1159b3d24ce0c8d61125ca488f7990604cbd6fd2f7d5a",
+    "evaluation/results/phase4_whisperx/reference_annotations.csv": "96955e37f87c1da14f9edf986d992319911869b15c7a77a631afcd78a5a2c597",
+    "evaluation/results/phase4_whisperx/subset_manifest.json": "dd060f7207841dd2c8b1aa129bcd42d808845bbf0cf5f48cc2039da53645415a"
+  },
+  "recordings": [
+    {
+      "recording_id": "1580-141084-0043",
+      "duration_seconds": 2.065,
+      "word_count": 7,
+      "reference_text": "HE PUT HIS SHOES ON THE TABLE",
+      "source_sha256": "85f99810d01def6c6f7f1125eeb89e42be07fe87268f49b6c79887c81fc10adf",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/1580-141084-0043.flac"
+    },
+    {
+      "recording_id": "8455-210777-0020",
+      "duration_seconds": 3.155,
+      "word_count": 7,
+      "reference_text": "OH YES SAID JACK AND I'M NOWHERE",
+      "source_sha256": "02236ecd1be6de19202a31bf6c02c554ab97ed593d60aa62ed060eeebaa544de",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/8455-210777-0020.flac"
+    },
+    {
+      "recording_id": "3729-6852-0026",
+      "duration_seconds": 4.69,
+      "word_count": 12,
+      "reference_text": "YES BUT THE MERIDIAN OF THE PALAIS ROYAL IS THE MOST EXACT",
+      "source_sha256": "bcfe665b89d40e3f632c54e18ccd359c9f80c39ebc8aba537b12a2be14707ee2",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/3729-6852-0026.flac"
+    },
+    {
+      "recording_id": "1320-122617-0039",
+      "duration_seconds": 7.055,
+      "word_count": 24,
+      "reference_text": "THE MOHICAN STARTED ON HIS FEET AND SHOOK HIS SHAGGY COVERING AS THOUGH THE ANIMAL HE COUNTERFEITED WAS ABOUT TO MAKE SOME DESPERATE EFFORT",
+      "source_sha256": "264a53a8c31bd50758ba7eeeb3b5efa9c5bc7908757d44a635bec4c9a4f2c3c0",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/1320-122617-0039.flac"
+    },
+    {
+      "recording_id": "1188-133604-0028",
+      "duration_seconds": 19.005,
+      "word_count": 44,
+      "reference_text": "WELL THEN LAST HERE IS TURNER'S GREEK SCHOOL OF THE HIGHEST CLASS AND YOU DEFINE HIS ART ABSOLUTELY AS FIRST THE DISPLAYING INTENSELY AND WITH THE STERNEST INTELLECT OF NATURAL FORM AS IT IS AND THEN THE ENVELOPMENT OF IT WITH CLOUD AND FIRE",
+      "source_sha256": "9796764cc991f9f0c3daa90c75d464260c0a3ffc4d282171df4696ce0963d5a7",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/1188-133604-0028.flac"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "original_rows": 457,
+  "unique_recordings": 25,
+  "exact_word_index_text_and_manifest_match": true,
+  "all_original_rows_pending": true,
+  "frozen_inputs": {
+    "evaluation/results/phase4_whisperx/full_result.json": "739e4dc1424ae7900af1159b3d24ce0c8d61125ca488f7990604cbd6fd2f7d5a",
+    "evaluation/results/phase4_whisperx/reference_annotations.csv": "96955e37f87c1da14f9edf986d992319911869b15c7a77a631afcd78a5a2c597",
+    "evaluation/results/phase4_whisperx/subset_manifest.json": "dd060f7207841dd2c8b1aa129bcd42d808845bbf0cf5f48cc2039da53645415a"
+  },
+  "manual_annotations_completed": 0
+}

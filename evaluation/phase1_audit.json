@@ -1,0 +1,128 @@
+{
+  "audit_date": "2026-11-05",
+  "timezone": "Asia/Calcutta",
+  "phase": 1,
+  "models_loaded": false,
+  "inference_executed": false,
+  "dataset_audio_files_acquired": 0,
+  "ground_truth_annotations_created": 0,
+  "hardware": {
+    "cpu": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+    "logical_cpus": 8,
+    "physical_memory_bytes": 8299257856,
+    "available_memory_bytes_snapshot": 698560512,
+    "disk_total_bytes": 510732005376,
+    "disk_available_bytes_snapshot": 298591633408,
+    "source": "Node os.cpus/totalmem/freemem and fs.statfs; point-in-time availability"
+  },
+  "runtime": {
+    "expected_python": "3.11.9",
+    "base_executable": "C:/Users/RAJ/AppData/Local/Programs/Python/Python311/python.exe",
+    "base_executable_exists": false,
+    "backend_venv_launch": "failed: No Python at configured base path",
+    "alignment_venv_launch": "failed: No Python at configured base path",
+    "python_launcher_inventory": "No installed Pythons found",
+    "pip_check": "not executable; no dependency-health conclusion",
+    "environment_changes": false
+  },
+  "installed_metadata_only": {
+    "backend": {
+      "fastapi": "0.119.1",
+      "uvicorn": "0.38.0",
+      "faster-whisper": "1.2.1",
+      "av": "18.1.0",
+      "numpy": "2.4.6",
+      "ctranslate2": "4.8.4",
+      "huggingface-hub": "2.3.0",
+      "tokenizers": "0.23.3",
+      "jiwer": null,
+      "matplotlib": null,
+      "psutil": null,
+      "datasets": null,
+      "pyarrow": null
+    },
+    "alignment": {
+      "whisperx": "3.8.6",
+      "torch": "2.8.0+cpu",
+      "torchaudio": "2.8.0+cpu",
+      "torchvision": "0.23.0+cpu",
+      "faster-whisper": "1.2.1",
+      "av": "18.1.0",
+      "numpy": "2.4.6",
+      "huggingface-hub": "0.36.2",
+      "tokenizers": "0.22.2",
+      "matplotlib": "3.11.2",
+      "jiwer": null,
+      "psutil": null,
+      "datasets": null,
+      "pyarrow": null
+    },
+    "method": "Read existing dist-info/METADATA with Node; these are not successful imports or pip checks"
+  },
+  "cached_models": [
+    {
+      "model": "tiny",
+      "revision": "d90ca5fe260221311c53c58e660288d3deb8d356",
+      "model_bin_bytes": 75538270
+    },
+    {
+      "model": "base.en",
+      "revision": "3d3d5dee26484f91867d81cb899cfcf72b96be6c",
+      "model_bin_bytes": 145216508
+    },
+    {
+      "model": "WAV2VEC2_ASR_BASE_960H",
+      "path": "models/alignment/wav2vec2_fairseq_base_ls960_asr_ls960.pth",
+      "bytes": 377664473
+    }
+  ],
+  "nltk_punkt_tab_english_directory_exists": true,
+  "cache_validation": "file presence and sizes only; no model loaded or downloaded",
+  "dataset_metadata": {
+    "official_source": "https://www.openslr.org/12/",
+    "license": "CC-BY-4.0",
+    "official_test_clean_archive": {
+      "url": "https://openslr.trmal.net/resources/12/test-clean.tar.gz",
+      "head_status": 200,
+      "bytes": 346663984,
+      "content_type": "application/x-gzip",
+      "accept_ranges": "bytes",
+      "official_md5": "32fa31d27d2e1cad72775fee3f4849a9",
+      "checksum_source": "https://openslr.trmal.net/resources/12/md5sum.txt",
+      "payload_downloaded_locally": false
+    },
+    "huggingface": {
+      "repository": "openslr/librispeech_asr",
+      "config": "clean",
+      "split": "test",
+      "documented_utterance_count": 2620,
+      "revision": "71cacbfb7e2354c4226d01e70d77d5fca3d04ba1",
+      "path": "clean/test/0000.parquet",
+      "bytes": 350452636,
+      "lfs_sha256": "7113aa4c3cf963fb54697145719a7725f984c8836d1c494a554cbb9f1a017df0",
+      "size_verification": "Hub tree metadata and HEAD Content-Length agree",
+      "payload_downloaded_locally": false
+    },
+    "selected_100_ids": null,
+    "selected_subset_actual_bytes": null,
+    "lossless_per_utterance_route_verified": false
+  },
+  "regression_tests": {
+    "executed_this_phase": false,
+    "backend_current_execution_blocked": true,
+    "historical_backend_passed": 43,
+    "historical_frontend_passed": 63,
+    "historical_native_media_checks_passed": 6
+  },
+  "production_code_modified": false,
+  "source_sha256": {
+    "backend/app/config.py": "38345c8faa66b12eb644c19da76bcde0a2a1d6f28571c476cf156f88138c5e24",
+    "backend/app/services/audio.py": "37e9a5e1e4a0cd9717c275ed8247e05982db23f97ee78cda0ae84b9f3367a4f0",
+    "backend/app/services/transcription.py": "50fdc24d6f6e7e49c61c266ed937cb6071482b0963bdbdf681ec46887de45d8a",
+    "backend/app/services/alignment.py": "5a123650ca5ffa84b5ab11240207bafce0479c74803c05b0c5e14aa48d436010",
+    "backend/app/api/speech.py": "ee1da4a5ee57acc88846253ccd353800e14959253b07c92e44bf02cd808e27e6",
+    "alignment/align_recording.py": "176d334681a2a4f39cfb653f390e2622445d4fbda419ea55031095bd9401a2b8",
+    "backend/requirements.txt": "8434bc8da4529037f09aedff6060f9b95479789ad9e3c1754d2a218e258e1438",
+    "alignment/requirements.txt": "b328651fd514071e65651ba19cd547fb5f6703908cd5d1b4d612149e4ccd7dfe"
+  }
+}

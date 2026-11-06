@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Calcutta",
+  "scope": "Read-only host checks outside the restricted agent view; no repairs or installations",
+  "correction_to_phase1": "The missing-Python result was specific to the restricted execution/filesystem view, not absence on the host. Both existing environments are runnable without repair.",
+  "base311": {
+    "path": "C:/Users/RAJ/AppData/Local/Programs/Python/Python311/python.exe",
+    "version": "3.11.9",
+    "bits": 64,
+    "isolated_stdlib_probe_passed": true
+  },
+  "other_interpreters": [
+    {
+      "path": "C:/Users/RAJ/AppData/Local/Programs/Python/Python312/python.exe",
+      "version": "3.12.3"
+    },
+    {
+      "path": "C:/Users/RAJ/AppData/Local/Programs/Python/Python313/python.exe",
+      "version": "3.13.1"
+    },
+    {
+      "path": "C:/ProgramData/Anaconda3/python.exe",
+      "version": "3.13.9"
+    }
+  ],
+  "backend_venv": {
+    "python_version": "3.11.9",
+    "launch_passed": true,
+    "prefix": "C:/Users/RAJ/OneDrive/Desktop/speak-easeAI/backend/.venv",
+    "base_prefix": "C:/Users/RAJ/AppData/Local/Programs/Python/Python311",
+    "pip_check": "No broken requirements found."
+  },
+  "alignment_venv": {
+    "python_version": "3.11.9",
+    "launch_passed": true,
+    "prefix": "C:/Users/RAJ/OneDrive/Desktop/speak-easeAI/alignment/.venv",
+    "base_prefix": "C:/Users/RAJ/AppData/Local/Programs/Python/Python311",
+    "pip_check": "No broken requirements found."
+  },
+  "recovery_needed": false,
+  "environment_modified": false,
+  "models_imported_or_loaded": false,
+  "model_native_runtime_tested": false,
+  "inspection_methods": [
+    "PATH/launcher",
+    "Python registry InstallPath entries",
+    "standard Python/Conda/uv installation paths",
+    "read-only process inventory",
+    "isolated -B -I -S base interpreter probes",
+    "-B -I venv sys.prefix/version probes",
+    "-B -m pip check"
+  ],
+  "resource_snapshot": {
+    "total_ram_bytes": 8299257856,
+    "available_ram_bytes": [
+      763707392,
+      926539776
+    ],
+    "available_ram_mib": [
+      728.328125,
+      883.6171875
+    ],
+    "free_disk_bytes": 293795368960,
+    "cpu": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+    "logical_cpus": 8
+  },
+  "safe_evaluation_recommendation": {
+    "mode": "sequential only after separate benchmark approval",
+    "asr_device": "cpu",
+    "asr_compute_type": "int8",
+    "threads": 2,
+    "model_workers": 1,
+    "simultaneous_asr_models": 1,
+    "clips_in_memory": 1,
+    "alignment_device": "cpu",
+    "alignment_dtype": "float32",
+    "alignment_children": 1,
+    "minimum_available_ram_recommended_bytes": 2147483648,
+    "ram_threshold_is_guarantee": false,
+    "current_ram_below_recommended_gate": true,
+    "stop_user_processes_automatically": false
+  }
+}

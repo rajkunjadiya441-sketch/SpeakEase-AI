@@ -1,0 +1,8 @@
+# Evaluation content is acquired only after explicit approval.
+.venv/
+.cache/
+data/
+results/raw/
+__pycache__/
+*.py[cod]
+*.log

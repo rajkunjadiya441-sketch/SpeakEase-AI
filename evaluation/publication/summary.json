@@ -1,0 +1,87 @@
+{
+  "scope": "Compact copies of existing saved measurements; no new inference. Raw outputs, private recordings, caches and datasets are not distributed.",
+  "asr": {
+    "tiny": {
+      "status": "full_completed",
+      "metrics": {
+        "words": {
+          "substitutions": 141,
+          "deletions": 21,
+          "insertions": 29,
+          "reference_count": 2042,
+          "errors": 191,
+          "rate": 0.09353574926542606
+        },
+        "characters": {
+          "substitutions": 187,
+          "deletions": 131,
+          "insertions": 65,
+          "reference_count": 8994,
+          "errors": 383,
+          "rate": 0.04258394485212364
+        }
+      },
+      "total_inference_seconds": 59.19056100000216,
+      "completed_samples": 100,
+      "aggregate_real_time_factor": 0.07861677623469143,
+      "measured_audio_seconds": 752.8998750000002,
+      "scoring_policy": "stdlib-levenshtein-v1; ties: equal, substitution, deletion, insertion"
+    },
+    "base.en": {
+      "status": "full_completed",
+      "metrics": {
+        "words": {
+          "substitutions": 80,
+          "deletions": 14,
+          "insertions": 12,
+          "reference_count": 2042,
+          "errors": 106,
+          "rate": 0.05190989226248776
+        },
+        "characters": {
+          "substitutions": 96,
+          "deletions": 95,
+          "insertions": 34,
+          "reference_count": 8994,
+          "errors": 225,
+          "rate": 0.025016677785190126
+        }
+      },
+      "total_inference_seconds": 108.0935627999952,
+      "completed_samples": 100,
+      "aggregate_real_time_factor": 0.14356963839314646,
+      "measured_audio_seconds": 752.8998750000002,
+      "scoring_policy": "stdlib-levenshtein-v1; ties: equal, substitution, deletion, insertion"
+    }
+  },
+  "alignment": {
+    "status": "full_completed",
+    "completed_recordings": 25,
+    "planned_recordings": 25,
+    "performance_only": true,
+    "metrics": {
+      "recordings": 25,
+      "fully_verified_reference_recordings": 0,
+      "accuracy_eligible_recordings": 0,
+      "accuracy_scope": "unavailable",
+      "target_words": 457,
+      "uniquely_aligned_words": 457,
+      "word_alignment_coverage": 1.0,
+      "scored_word_pairs": 0,
+      "start_mae_seconds": null,
+      "end_mae_seconds": null,
+      "combined_boundary_mae_seconds": null,
+      "median_absolute_boundary_error_seconds": null,
+      "boundaries_within_100ms_percent": null,
+      "boundaries_within_200ms_percent": null,
+      "all_reference_boundaries_within_100ms_percent": null,
+      "all_reference_boundaries_within_200ms_percent": null
+    },
+    "total_alignment_seconds": 23.749631800004863,
+    "aggregate_alignment_rtf": 0.15162404188083672,
+    "peak_resident_bytes": 1863024640,
+    "peak_private_commit_bytes": 2512973824,
+    "accuracy_note": "Boundary accuracy is unavailable without independently verified human references; word coverage is not timestamp accuracy or pronunciation assessment."
+  },
+  "dataset_provenance": "Existing LibriSpeech test-clean subset (openslr/librispeech_asr clean/test, revision71cacbfb7e2354c4226d01e70d77d5fca3d04ba1); corpus license recorded as CC BY4.0. Audio is excluded."
+}

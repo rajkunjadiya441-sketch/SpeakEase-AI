@@ -1,0 +1,213 @@
+{
+  "version": 1,
+  "full_dataset_recordings": 25,
+  "selection": "Original frozen full25 order; future complete-reference scoring only.",
+  "predictions_path": "evaluation/results/phase4_whisperx/full_result.json",
+  "frozen_inputs": {
+    "evaluation/results/phase4_whisperx/full_result.json": "739e4dc1424ae7900af1159b3d24ce0c8d61125ca488f7990604cbd6fd2f7d5a",
+    "evaluation/results/phase4_whisperx/reference_annotations.csv": "96955e37f87c1da14f9edf986d992319911869b15c7a77a631afcd78a5a2c597",
+    "evaluation/results/phase4_whisperx/subset_manifest.json": "dd060f7207841dd2c8b1aa129bcd42d808845bbf0cf5f48cc2039da53645415a"
+  },
+  "recordings": [
+    {
+      "recording_id": "1284-1180-0004",
+      "duration_seconds": 4.285,
+      "word_count": 14,
+      "reference_text": "WHEN THEY WERE OUTSIDE UNC SIMPLY LATCHED THE DOOR AND STARTED UP THE PATH",
+      "source_sha256": "a1c1b8e7f39f808dd4ec7a0aa45a0204f27ce05818b524d3c9674eb4117f8209",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/1284-1180-0004.flac"
+    },
+    {
+      "recording_id": "3575-170457-0043",
+      "duration_seconds": 19,
+      "word_count": 54,
+      "reference_text": "HOWEVER REMEMBERING WHAT YOU TOLD ME NAMELY THAT YOU HAD COMMENDED THE MATTER TO A HIGHER DECISION THAN OURS AND THAT YOU WERE RESOLVED TO SUBMIT WITH RESIGNATION TO THAT DECISION WHATEVER IT MIGHT BE I HOLD IT MY DUTY TO YIELD ALSO AND TO BE SILENT IT MAY BE ALL FOR THE BEST",
+      "source_sha256": "db270e76e622aa113fed47e148d249e3a96fb25578ecde46e345244673ed04bb",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/3575-170457-0043.flac"
+    },
+    {
+      "recording_id": "8463-294828-0009",
+      "duration_seconds": 4.17,
+      "word_count": 14,
+      "reference_text": "NOT ONCE DID HE COMMENT ON THE LENGTH OR THE HARDSHIPS OF A JOURNEY",
+      "source_sha256": "0b95b7d057fc79d15c38d61788d69112c684fe6f6d0fb0309aed9102446a9124",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/8463-294828-0009.flac"
+    },
+    {
+      "recording_id": "1188-133604-0028",
+      "duration_seconds": 19.005,
+      "word_count": 44,
+      "reference_text": "WELL THEN LAST HERE IS TURNER'S GREEK SCHOOL OF THE HIGHEST CLASS AND YOU DEFINE HIS ART ABSOLUTELY AS FIRST THE DISPLAYING INTENSELY AND WITH THE STERNEST INTELLECT OF NATURAL FORM AS IT IS AND THEN THE ENVELOPMENT OF IT WITH CLOUD AND FIRE",
+      "source_sha256": "9796764cc991f9f0c3daa90c75d464260c0a3ffc4d282171df4696ce0963d5a7",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/1188-133604-0028.flac"
+    },
+    {
+      "recording_id": "2094-142345-0055",
+      "duration_seconds": 2.655,
+      "word_count": 10,
+      "reference_text": "BUT YOU KNOW MORE ABOUT THAT THAN I DO SIR",
+      "source_sha256": "d30793df27b2a41162bff2de937590734fc18e1a18da0eb557f959831e8bb239",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/2094-142345-0055.flac"
+    },
+    {
+      "recording_id": "8455-210777-0027",
+      "duration_seconds": 12.625,
+      "word_count": 39,
+      "reference_text": "WHEN THIS CAPTAIN SHOULD HAVE TAKEN HIMSELF AND HIS VESSEL BACK TO ENGLAND I WOULD RETIRE TO A SMALL FARM WHICH I POSSESSED AT THE FARTHEST SIDE OF THE ISLAND AND THERE IN SECLUSION WOULD I END MY DAYS",
+      "source_sha256": "c157cbe90d122d9e4a30e4ad7266f89aa44b8e1ed1f545d92a90f88abd4f5253",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/8455-210777-0027.flac"
+    },
+    {
+      "recording_id": "4446-2273-0036",
+      "duration_seconds": 3.12,
+      "word_count": 8,
+      "reference_text": "ALEXANDER UNCLENCHED THE TWO HANDS AT HIS SIDES",
+      "source_sha256": "a46ed4ed6149f571199cf449f17d741f7706bd44ea5feb0bb782536385f8e3b3",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/4446-2273-0036.flac"
+    },
+    {
+      "recording_id": "6829-68769-0008",
+      "duration_seconds": 4.74,
+      "word_count": 16,
+      "reference_text": "FAIRVIEW WAS TWELVE MILES AWAY BUT BY TEN O'CLOCK THEY DREW UP AT THE COUNTY JAIL",
+      "source_sha256": "f542494a8d4c891e11911151b2e4291b60dbd3f7da0abc9d6bf30252e9979d30",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/6829-68769-0008.flac"
+    },
+    {
+      "recording_id": "2961-961-0009",
+      "duration_seconds": 5.705,
+      "word_count": 14,
+      "reference_text": "TELL US SAID THE OTHER THE WHOLE STORY AND WHERE SOLON HEARD THE STORY",
+      "source_sha256": "3d271f99dd7f34e06f8f5d10595561143fedee0c388f38471519bc2618726120",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/2961-961-0009.flac"
+    },
+    {
+      "recording_id": "237-134500-0034",
+      "duration_seconds": 3.075,
+      "word_count": 5,
+      "reference_text": "THANK YOU HE RETURNED SHORTLY",
+      "source_sha256": "26f96a3c3039e19f2f9bfef70d7629d9e4b232353ef2b37af0477ab8889fde0e",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/237-134500-0034.flac"
+    },
+    {
+      "recording_id": "4992-41797-0014",
+      "duration_seconds": 7.215,
+      "word_count": 25,
+      "reference_text": "WHEN SHE COULD NOT MAKE A RABBIT OR A BIRD LOOK REAL ON PAPER SHE SEARCHED IN HER FATHER'S BOOKS FOR PICTURES OF ITS BONES",
+      "source_sha256": "f644c34191a48debfabffb515d4aeb550ad95ef178f23976398afe58dd73d6b7",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/4992-41797-0014.flac"
+    },
+    {
+      "recording_id": "8463-287645-0014",
+      "duration_seconds": 3.02,
+      "word_count": 9,
+      "reference_text": "OF STARTING I DIDN'T KNOW THE WAY TO COME",
+      "source_sha256": "168dac078fca5d5057122958246618aaf10412f1ebc3eddd4402b2ecbca2a1b2",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/8463-287645-0014.flac"
+    },
+    {
+      "recording_id": "6829-68769-0053",
+      "duration_seconds": 6.36,
+      "word_count": 20,
+      "reference_text": "AND TO THINK WE CAN SAVE ALL THAT MISERY AND DESPAIR BY THE PAYMENT OF A HUNDRED AND FIFTY DOLLARS",
+      "source_sha256": "de5c1d531d9d606399b21678b652d388daced9b20968666f5390c4c32ed0fbff",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/6829-68769-0053.flac"
+    },
+    {
+      "recording_id": "1320-122617-0039",
+      "duration_seconds": 7.055,
+      "word_count": 24,
+      "reference_text": "THE MOHICAN STARTED ON HIS FEET AND SHOOK HIS SHAGGY COVERING AS THOUGH THE ANIMAL HE COUNTERFEITED WAS ABOUT TO MAKE SOME DESPERATE EFFORT",
+      "source_sha256": "264a53a8c31bd50758ba7eeeb3b5efa9c5bc7908757d44a635bec4c9a4f2c3c0",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/1320-122617-0039.flac"
+    },
+    {
+      "recording_id": "3575-170457-0029",
+      "duration_seconds": 6.055,
+      "word_count": 20,
+      "reference_text": "YOUR LETTER HAS GIVEN ME GREAT PLEASURE AND I SHOULD NOT FORGIVE MYSELF IF I DID NOT TELL YOU SO",
+      "source_sha256": "e3ceef0002ae496913d01e2bab9ce1602d317429e6f5805762503098a65b0249",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/3575-170457-0029.flac"
+    },
+    {
+      "recording_id": "1580-141084-0008",
+      "duration_seconds": 6.795,
+      "word_count": 22,
+      "reference_text": "I CANNOT ALLOW THE EXAMINATION TO BE HELD IF ONE OF THE PAPERS HAS BEEN TAMPERED WITH THE SITUATION MUST BE FACED",
+      "source_sha256": "f399e7e4e3a8f878dd3b0af4993522f68257108b9938bb722ceb4e0975ac966d",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/1580-141084-0008.flac"
+    },
+    {
+      "recording_id": "1580-141084-0043",
+      "duration_seconds": 2.065,
+      "word_count": 7,
+      "reference_text": "HE PUT HIS SHOES ON THE TABLE",
+      "source_sha256": "85f99810d01def6c6f7f1125eeb89e42be07fe87268f49b6c79887c81fc10adf",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/1580-141084-0043.flac"
+    },
+    {
+      "recording_id": "3729-6852-0026",
+      "duration_seconds": 4.69,
+      "word_count": 12,
+      "reference_text": "YES BUT THE MERIDIAN OF THE PALAIS ROYAL IS THE MOST EXACT",
+      "source_sha256": "bcfe665b89d40e3f632c54e18ccd359c9f80c39ebc8aba537b12a2be14707ee2",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/3729-6852-0026.flac"
+    },
+    {
+      "recording_id": "121-121726-0014",
+      "duration_seconds": 3.165,
+      "word_count": 4,
+      "reference_text": "HYPOCRITE A HORSE DEALER",
+      "source_sha256": "60d51d3a5989945df2fb2b77d59782ae05e45495fc2b01d495db428ff6ad55a6",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/121-121726-0014.flac"
+    },
+    {
+      "recording_id": "1221-135766-0009",
+      "duration_seconds": 10.19,
+      "word_count": 33,
+      "reference_text": "AS TO ANY OTHER KIND OF DISCIPLINE WHETHER ADDRESSED TO HER MIND OR HEART LITTLE PEARL MIGHT OR MIGHT NOT BE WITHIN ITS REACH IN ACCORDANCE WITH THE CAPRICE THAT RULED THE MOMENT",
+      "source_sha256": "2b71373e9479f8c30d7ef90f67ce562bf0664ffb9d05e13dd3f840e6852e2ce9",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/1221-135766-0009.flac"
+    },
+    {
+      "recording_id": "8455-210777-0020",
+      "duration_seconds": 3.155,
+      "word_count": 7,
+      "reference_text": "OH YES SAID JACK AND I'M NOWHERE",
+      "source_sha256": "02236ecd1be6de19202a31bf6c02c554ab97ed593d60aa62ed060eeebaa544de",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/8455-210777-0020.flac"
+    },
+    {
+      "recording_id": "7021-85628-0004",
+      "duration_seconds": 2.805,
+      "word_count": 5,
+      "reference_text": "YES WHY NOT THOUGHT ANDERS",
+      "source_sha256": "a88a0226ca52f93d8962e72f38671c476686ecee56cae802ef85077f7d97c0bf",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/7021-85628-0004.flac"
+    },
+    {
+      "recording_id": "61-70970-0029",
+      "duration_seconds": 4.03,
+      "word_count": 11,
+      "reference_text": "FROM THE BLACKNESS BEHIND THE LIGHT THEY HEARD A VOICE WARRENTON'S",
+      "source_sha256": "6d1628888619b7294ba9e9810df9681f8de33e83454cb75eb7ee058eaba90b57",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/61-70970-0029.flac"
+    },
+    {
+      "recording_id": "1995-1826-0015",
+      "duration_seconds": 3.55,
+      "word_count": 12,
+      "reference_text": "SHE HAD ALMOST FORGOTTEN THAT IT WAS HERE WITHIN TOUCH AND SIGHT",
+      "source_sha256": "4fc10cc339068981dfd13f1da39735faf2bcd078bbd55bfcea5e0beb224d836b",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/1995-1826-0015.flac"
+    },
+    {
+      "recording_id": "8455-210777-0019",
+      "duration_seconds": 8.105,
+      "word_count": 28,
+      "reference_text": "THEN THERE WERE THREE OR FOUR LEADING MEN OF THE COMMUNITY WITH THEIR WIVES WHO WERE FOR THE MOST PART THE FATHERS AND MOTHERS OF THE YOUNG LADIES",
+      "source_sha256": "46deb473a297ec5271f81ae4f6d1d52d9af5548b1f73da67c93f701f95c7647e",
+      "audio_path": "evaluation/data/librispeech_test_clean/flac/8455-210777-0019.flac"
+    }
+  ]
+}

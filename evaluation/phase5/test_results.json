@@ -1,0 +1,10 @@
+{
+  "command": "node --test evaluation/scripts/test_phase5_accuracy.mjs",
+  "node": "v22.20.0",
+  "exit_code": 0,
+  "passed": 30,
+  "failed": 0,
+  "real_inference_executed": false,
+  "manual_annotations_completed": 0,
+  "accuracy_measurements_generated": false
+}

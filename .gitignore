@@ -1,0 +1,81 @@
+# Local environments, caches and dependencies (at any depth)
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Secrets: examples are deliberately versioned
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Models, downloaded datasets and private human recordings
+/models/
+/test_audio/
+/evaluation/data/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.ckpt
+*.bin
+*.npy
+*.npz
+*.flac
+*.m4a
+*.mp3
+*.webm
+*.wav
+# Small synthetic non-speech fixture required by frontend tests
+!/ipd_frontend/public/demo-tone.wav
+
+# Local benchmark outputs/checkpoints/provenance; share compact reviewed summaries
+/evaluation/results/
+/evaluation/metadata/
+/evaluation/config/plan.json
+/alignment/install-plan.json
+/alignment/backend-packages-before.txt
+
+# Generated builds, test profiles, temporary files and logs
+dist/
+dist-ssr/
+build/
+coverage/
+*.egg-info/
+/ipd_frontend/qa/
+uploads/
+*.log
+*.tmp
+*.temp
+*.lock.tmp
+.worker.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local publication exports/backups are never recursively published
+/.publication/
+.git/
+.gitmodules
+
+# Machine/editor state
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.suo
+*.user
+*.swp
+*.swo

@@ -1,0 +1,190 @@
+TAP version 13
+# Subtest: MAE, pooled median and inclusive threshold formulas
+ok 1 - MAE, pooled median and inclusive threshold formulas
+  ---
+  duration_ms: 1.3001
+  type: 'test'
+  ...
+# Subtest: no observations means null accuracy
+ok 2 - no observations means null accuracy
+  ---
+  duration_ms: 0.2653
+  type: 'test'
+  ...
+# Subtest: reject missing
+ok 3 - reject missing
+  ---
+  duration_ms: 0.6282
+  type: 'test'
+  ...
+# Subtest: reject negative
+ok 4 - reject negative
+  ---
+  duration_ms: 0.148
+  type: 'test'
+  ...
+# Subtest: reject zero
+ok 5 - reject zero
+  ---
+  duration_ms: 0.1709
+  type: 'test'
+  ...
+# Subtest: reject reversed
+ok 6 - reject reversed
+  ---
+  duration_ms: 0.1371
+  type: 'test'
+  ...
+# Subtest: reject exceeds
+ok 7 - reject exceeds
+  ---
+  duration_ms: 0.1821
+  type: 'test'
+  ...
+# Subtest: reject nan
+ok 8 - reject nan
+  ---
+  duration_ms: 0.1023
+  type: 'test'
+  ...
+# Subtest: reject infinity
+ok 9 - reject infinity
+  ---
+  duration_ms: 0.2983
+  type: 'test'
+  ...
+# Subtest: reject reviewer
+ok 10 - reject reviewer
+  ---
+  duration_ms: 0.3471
+  type: 'test'
+  ...
+# Subtest: reject unknown_status
+ok 11 - reject unknown_status
+  ---
+  duration_ms: 0.1605
+  type: 'test'
+  ...
+# Subtest: reject word
+ok 12 - reject word
+  ---
+  duration_ms: 0.1422
+  type: 'test'
+  ...
+# Subtest: reject index
+ok 13 - reject index
+  ---
+  duration_ms: 0.0852
+  type: 'test'
+  ...
+# Subtest: reject duplicate
+ok 14 - reject duplicate
+  ---
+  duration_ms: 0.1006
+  type: 'test'
+  ...
+# Subtest: reject missing row
+ok 15 - reject missing row
+  ---
+  duration_ms: 0.115
+  type: 'test'
+  ...
+# Subtest: reject unknown recording
+ok 16 - reject unknown recording
+  ---
+  duration_ms: 0.0864
+  type: 'test'
+  ...
+# Subtest: reject reordered rows
+ok 17 - reject reordered rows
+  ---
+  duration_ms: 0.0837
+  type: 'test'
+  ...
+# Subtest: reject overlap
+ok 18 - reject overlap
+  ---
+  duration_ms: 0.0903
+  type: 'test'
+  ...
+# Subtest: pending excludes whole recording
+ok 19 - pending excludes whole recording
+  ---
+  duration_ms: 0.4397
+  type: 'test'
+  ...
+# Subtest: annotated excludes whole recording
+ok 20 - annotated excludes whole recording
+  ---
+  duration_ms: 0.1045
+  type: 'test'
+  ...
+# Subtest: uncertain excludes whole recording
+ok 21 - uncertain excludes whole recording
+  ---
+  duration_ms: 0.094
+  type: 'test'
+  ...
+# Subtest: inaudible excludes whole recording
+ok 22 - inaudible excludes whole recording
+  ---
+  duration_ms: 0.0751
+  type: 'test'
+  ...
+# Subtest: unresolved_transcript excludes whole recording
+ok 23 - unresolved_transcript excludes whole recording
+  ---
+  duration_ms: 0.1366
+  type: 'test'
+  ...
+# Subtest: five or fewer references never imply full25 accuracy
+ok 24 - five or fewer references never imply full25 accuracy
+  ---
+  duration_ms: 0.1698
+  type: 'test'
+  ...
+# Subtest: invalid prediction excluded and retained in all-reference denominator
+ok 25 - invalid prediction excluded and retained in all-reference denominator
+  ---
+  duration_ms: 0.1361
+  type: 'test'
+  ...
+# Subtest: prediction sequence mismatch fails closed
+ok 26 - prediction sequence mismatch fails closed
+  ---
+  duration_ms: 0.0993
+  type: 'test'
+  ...
+# Subtest: aggregate pools words rather than averaging recordings
+ok 27 - aggregate pools words rather than averaging recordings
+  ---
+  duration_ms: 0.1494
+  type: 'test'
+  ...
+# Subtest: CSV handles UTF8, quotes, commas and embedded newline
+ok 28 - CSV handles UTF8, quotes, commas and embedded newline
+  ---
+  duration_ms: 1.0954
+  type: 'test'
+  ...
+# Subtest: pilot frozen input hashes and blank template validate without scoring
+ok 29 - pilot frozen input hashes and blank template validate without scoring
+  ---
+  duration_ms: 21.7595
+  type: 'test'
+  ...
+# Subtest: full25 frozen input hashes and blank template validate without scoring
+ok 30 - full25 frozen input hashes and blank template validate without scoring
+  ---
+  duration_ms: 70.5067
+  type: 'test'
+  ...
+1..30
+# tests 30
+# suites 0
+# pass 30
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 201.6236
